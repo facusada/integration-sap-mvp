@@ -1,0 +1,30 @@
+[project]
+name = "integrations-sap-mvp"
+version = "0.1.0"
+description = "FastAPI bridge for SAP monitoring data exposed to SAP Integration Suite."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[project.optional-dependencies]
+sap = [
+    "pyrfc==3.3.1",
+]
+mcp = [
+    "mcp[cli]>=1.0.0",
+]
+dev = [
+    "httpx>=0.27.0",
+    "pytest>=8.0.0",
+    "pytest-mock>=3.14.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

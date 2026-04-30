@@ -1,0 +1,121 @@
+
+**** Log file opened at 2026-04-24 15:29:39.493357 UTC-03:00 (UTC), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  2 2025 15:53:22
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : /Users/facusada/Documents/projects/integrations-sap-mvp
+Program                   : Python
+Process ID                : 38492
+User                      : facusada
+Hardware                  : Apple Macintosh with Mac OS X (Darwin) Apple Silicon arm64 arm64
+Operating_system          : Darwin 25.3.0
+Hostname                  : Facundos-MacBook-Pro.local
+IP address                : 127.0.0.1
+IPv6 address              : ::1
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-04-24 15:29:39.493409 [8437772544] >> Info entry
+	Did not find config file /Users/facusada/Documents/projects/integrations-sap-mvp/sapnwrfc.ini.
+
+**** Log file opened at 2026-04-24 15:30:34.722743 UTC-03:00 (UTC), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  2 2025 15:53:22
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : /Users/facusada/Documents/projects/integrations-sap-mvp
+Program                   : Python
+Process ID                : 38555
+User                      : facusada
+Hardware                  : Apple Macintosh with Mac OS X (Darwin) Apple Silicon arm64 arm64
+Operating_system          : Darwin 25.3.0
+Hostname                  : Facundos-MacBook-Pro.local
+IP address                : 127.0.0.1
+IPv6 address              : ::1
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-04-24 15:30:34.721930 [8437772544] >> Info entry
+	throwRfcErrorMsg called at:
+[Thr 8437772544] ------------------ C-STACK ----------------------
+[Thr 8437772544] ------------------ c-stack end ------------------
+
+
+**** Log file opened at 2026-04-24 15:35:01.402902 UTC-03:00 (UTC), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  2 2025 15:53:22
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : /Users/facusada/Documents/projects/integrations-sap-mvp
+Program                   : Python
+Process ID                : 38884
+User                      : facusada
+Hardware                  : Apple Macintosh with Mac OS X (Darwin) Apple Silicon arm64 arm64
+Operating_system          : Darwin 25.3.0
+Hostname                  : Facundos-MacBook-Pro.local
+IP address                : 127.0.0.1
+IPv6 address              : ::1
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-04-24 15:35:01.402171 [8437772544] >> Info entry
+	throwRfcErrorMsg called at:
+[Thr 8437772544] ------------------ C-STACK ----------------------
+[Thr 8437772544] ------------------ c-stack end ------------------
+
+2026-04-24 15:35:01.539666 [8437772544] >> Info entry
+	throwRfcErrorMsg called at:
+[Thr 8437772544] ------------------ C-STACK ----------------------
+[Thr 8437772544] ------------------ c-stack end ------------------
+
+2026-04-24 15:35:01.673984 [8437772544] >> Info entry
+	throwRfcErrorMsg called at:
+[Thr 8437772544] ------------------ C-STACK ----------------------
+[Thr 8437772544] ------------------ c-stack end ------------------
+
+2026-04-24 15:35:01.811697 [8437772544] >> Info entry
+	throwRfcErrorMsg called at:
+[Thr 8437772544] ------------------ C-STACK ----------------------
+[Thr 8437772544] ------------------ c-stack end ------------------
+
+
+**** Log file opened at 2026-04-28 16:35:01.236957 UTC-03:00 (UTC), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  2 2025 15:53:22
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : /Users/facusada/Documents/projects/integrations-sap-mvp
+Program                   : Python
+Process ID                : 26252
+User                      : facusada
+Hardware                  : Apple Macintosh with Mac OS X (Darwin) Apple Silicon arm64 arm64
+Operating_system          : Darwin 25.3.0
+Hostname                  : Facundos-MacBook-Pro.local
+IP address                : 127.0.0.1
+IPv6 address              : ::1
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-04-28 16:35:01.234173 [8272556288] >> Error entry
+	[Handle: 41118957568	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.55.20.170:3300' not reached
+TIME        Tue Apr 28 16:35:01 2026
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/754_REL/src/base/ni/nibuf.cpp
+LINE        4634
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       36
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
